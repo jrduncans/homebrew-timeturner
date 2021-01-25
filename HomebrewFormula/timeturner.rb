@@ -1,11 +1,11 @@
 class Timeturner < Formula
-  version '1.5.0'
+  version '1.6.0'
   desc "Command line utility for manipulating date-time strings"
   homepage "https://github.com/jrduncans/timeturner"
 
   if OS.mac?
       url "https://github.com/jrduncans/timeturner/releases/download/v#{version}/timeturner-v#{version}-universal-apple-darwin.zip"
-      sha256 "2e3ef14ff50a6992446cfb488676827ae0815ac9275c4e4003b7856cb5a0746c"
+      sha256 "133ca7d1986d5595b4a85b33e707871647bf916d46f4f5a0ad52f008ebe3454b"
   end
 
   def install
